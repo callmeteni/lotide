@@ -1,15 +1,9 @@
 const words = ["ground", "control", "to", "major", "tom"];
-
-const map = function(words, callback) {
-    
-    for (let item of words) {
-        const results = [];
-      results.push(callback(item))
+let results = [];
+const map = function (array, callback) {
+    for (let item of array) {
+        results.push(callback(item))
     }
     return results;
-  }; 
-
-  console.log(results);
-
-
-  
+};
+const results1 = map(words, word => word[0]);
