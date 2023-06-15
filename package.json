@@ -1,7 +1,7 @@
 {
   "name": "@callmeteni/lotide",
   "version": "1.0.0",
-  "main": "asserrtObjectEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
