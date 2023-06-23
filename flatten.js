@@ -20,7 +20,4 @@ const flatten = function (array) {
     // return our new array of flattened array
 };
 
-// Test
-const inputArray = [1, 2, [3, 4], 5, [6]];
-const flattenedArray = flatten(inputArray);
-console.log(flattenedArray); // [1, 2, 3, 4, 5, 6]
+module.exports = flatten;

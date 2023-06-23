@@ -7,8 +7,3 @@ describe('tail', function() {
       assert.deepEqual(result, ["Lighthouse", "Labs"]);
     });
   });
-
-
-//TEST
-// const result = tail(["Hello", "Lighthouse", "Labs"]);
-// assertEqual(result, ["Lighthouse", "Labs"]);
